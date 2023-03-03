@@ -1,19 +1,13 @@
-<<<<<<< Updated upstream
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
 
-body{
-   font-family: 'Times New Roman', Times, serif;
-=======
 body{
     line-height: 1.5;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     background: linear-gradient(450deg, #004765, #BCD3F2);
-
 }
 
 body .hidden-scrolling{
@@ -36,159 +30,26 @@ ul{
     list-style: none;
     margin: 0;
     padding: 0;
->>>>>>> Stashed changes
 }
 
 a{
     text-decoration: none;
 }
 
-<<<<<<< Updated upstream
 li{
     list-style: none;
 }
 
-.navbar {
-    display: flex;
-    height: 90px;
-    align-items: center;
-    justify-content: space-around;
-    padding: 20px;
-    background-color: black;
-    color: white;
-}
-.nav-links a {
-    color: white;
+li{
+    top: 0px;
 }
 
-.logo {
-    font-size: 30px;
-    color: #fff;
-    cursor: pointer;
-}
-
-.menu {
-    display: flex;
-    font-size: 25px;
-    gap: 30px;
-}
-
-.menu li{
-    padding: 5px 15px;
-}
-
-.menu a {
-    padding: 10px 20px;
-}
-
-.menu a:hover{
-    transition: 0.3s all ease;
-    color: #000;
-    background-color: white;
-}
-
-#checkbox_toggle{
-    display: none;
-}
-
-.hamburger{
-    display: flex;
-    font-size: 24px;
-    cursor: pointer;
-}
-
-.hamburger-line{
-    background-color: white;
-    display: block;
-    height: 3px;
-    position: relative;
-    width: 28px;
-}
-
-.hamburger-line::before,
-.hamburger-line::after{
-    background-color: white;
-    content: "";
-    display: block;
-    position: absolute;
-    transition: 0.3s all ease;
-    width: 100%;
-    height: 100%;
-}
-
-.hamburger-line::before{
-    top: 7px;
-}
-
-
-.hamburger-line::after{
-    top: -7px;
-}
-
-@media (max-width: 768px) {
-    .menu{
-        display: none;
-        max-height: 0;
-        overflow: hidden;
-        position: absolute;
-        border-top: 3px solid white;
-        text-align: center;
-        right: 0px;
-        left: 0px;
-        margin-top: 20px;
-        z-index: 10;
-    }
-
-    .menu li a{
-        color: rgb(255, 255, 255);
-        display: block;
-        padding: 15px;
-    }
-
-    .menu li{
-        transition: 0.5s all ease;
-        background-color: black;
-        color: white;
-        padding: 10px 20px;
-    }
-
-    .menu li:hover {
-        transition: 0.5s all ease;
-        color: white;
-    }
-
-    #checkbox_toggle:checked ~ .menu {
-        display: block;
-        max-height: 100%;
-        transition: all 0.5s;
-    }
-
-    .hamburger{
-        display: block;
-        padding: 20px 0px;
-    }
-
-    #checkbox_toggle:checked ~ .hamburger .hamburger-line {
-        background-color: transparent;
-    }
-
-    #checkbox_toggle:checked ~ .hamburger .hamburger-line::before {
-        transform: rotate(-45deg);
-        top: 0px;
-    }
-
-    #checkbox_toggle:checked ~ .hamburger .hamburger-line::after {
-        transform: rotate(45deg);
-        top: 0px;
-    }
-}
-=======
 /*Header*/
 .header{
     position: absolute;
     width: 100%;
     left: 0;
-    top: 0;
+    top: -1%;
     z-index: 99;
     padding: 15px;
 }
@@ -210,14 +71,13 @@ li{
 .header .logo a{
     font-size: 30px;
     text-transform: capitalize;
-    color: gold;
     font-weight: 600;
 }
-
 
 .loggan{
     width: 125px;
 }
+
 .header .nav-menu{
     padding: 0 15px;
 }
@@ -291,11 +151,141 @@ li{
     visibility: hidden;
 }
 
+/*Responsive for Desktop*/
+
 @media(min-width:992px){
+    
     body{
         margin: 0;
         padding: 0;
     }
+    
+
+    .card-img{
+        position: absolute;
+        top: 164%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        height: 350px;
+        border-radius: 15px;
+    }
+
+    .bildtext{
+        position: absolute;
+        top: 214.5%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        background-color: white;
+        padding: 10px;
+        border-radius: 15px;
+        width: 525px;
+    }
+
+    .text1{
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        background-color: white;
+        border-radius: 5px;
+        width: 200px;
+        
+    }
+    
+    .card-img1{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        height: 350px;
+        border-radius: 15px;
+    }
+    
+    .bildtext1{
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        background-color: white;
+        padding: 5px;
+        border-radius: 5px;
+        width: 525px;
+    }
+    
+    
+    .text2{
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        background-color: white;
+        border-radius: 5px;
+        width: 200px;
+        
+        
+    }
+    
+    .card-img2{
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        height: 800px;
+        border-radius: 15px;
+    }
+    
+    .bildtext2{
+        position: absolute;
+        top: 71%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        background-color: white;
+        padding: 5px;
+        border-radius: 15px;
+        width: 525px;
+    }
+    
+    
+    .text3{
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        background-color: white;
+        border-radius: 5px;
+        width: 200px;
+        
+        
+    }
+    
+    .card-img3{
+        position: absolute;
+        top: 92%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        height: 350px;
+        border-radius: 15px;
+    }
+    
+    .bildtext3{
+        position: absolute;
+        top: 143%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        background-color: white;
+        padding: 5px;
+        border-radius: 15px;
+        width: 525px;
+    }
+    
+    
+    .läs-mer{
+        background-color: transparent;
+        text-decoration: none;
+        color: #2f53a7;
+    }
+
+
 
     .vrångö{
         position: absolute;
@@ -342,13 +332,26 @@ li{
         width: 350px;
         border-radius: 10px;
     }
-    
 
+    .våra-sponsorer{
+        color: whitesmoke;
+        position: absolute;
+        top: 48%;
+        left: 85%;
+        font-size: larger;
+        font-weight: bold;
+    }
+
+    .slider{
+        display: none;
+    }
+    
     .header .menu > .menu-item-has-children:hover > .sub-menu{
     transform: translateY(0);
     opacity: 1;
     visibility: visible;
 }
+
 .header .menu > .menu-item-has-children:hover > a .plus::after{
     transform: translate(-50%, -50%)rotate(0deg);
 }
@@ -356,8 +359,9 @@ li{
 h2{
     color: white;
     position: absolute;
-    top: 35%;
-    left: 45%;
+    font-size: 30px;
+    top: 33%;
+    left: 43%;
 }
 
 
@@ -465,21 +469,161 @@ h2{
 @media(max-width: 991px){
 
     body{
-        margin: 0;
-        padding: 0;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .loggan{
+        height: 100px;
+        width: auto;
+    }
+
+    h2{
+        color: white;
+        position: absolute;
+        top: 35%;
+        left: 30%;
+    }
+
+    .card-img{
+        position: absolute;
+        top: 205%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        height: 300px;
+        border-radius: 15px;
+    }
+
+    .bildtext{
+        position: absolute;
+        top: 250%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        background-color: white;
+        padding: 1px;
+        border-radius: 15px;
+        height: auto;
+        width: 350px;
+    }
+
+    .text1{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        background-color: white;
+        border-radius: 5px;
+        width: 200px;
+    }
+    
+    .card-img1{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        height: 350px;
+        border-radius: 15px;
+    }
+    
+    .bildtext1{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        background-color: white;
+        padding: 5px;
+        border-radius: 5px;
+        width: 525px;
+    }
+    
+    
+    .text2{
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        background-color: white;
+        border-radius: 5px;
+        width: 200px;
+    }
+    
+    .card-img2{
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        height: 300px;
+        border-radius: 15px;
+    }
+    
+    .bildtext2{
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        background-color: white;
+        padding: 5px;
+        border-radius: 15px;
+        width: 350px;
+    }
+    
+    
+    .text3{
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        background-color: white;
+        border-radius: 5px;
+        width: 200px;
+        
+        
+    }
+    
+    .card-img3{
+        position: absolute;
+        top: 115%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        height: 300px;
+        border-radius: 15px;
+    }
+    
+    .bildtext3{
+        position: absolute;
+        top: 155%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        background-color: white;
+        padding: 5px;
+        border-radius: 15px;
+        width: 350px;
+    }
+    
+    
+    .läs-mer{
+        background-color: transparent;
+        text-decoration: none;
+        color: #2f53a7;
     }
 
     .våra-sponsorer{
         position: absolute;
-        top: 336%;
-        left: 30%;
-        color: white;
+        top: 320%;
+        right: 28%;
+        color: whitesmoke;
         font-size: 20px;
         font-weight: bold;
     }
+
+    .bilder{
+        display: none;
+    }
+
+    /*
     .vrångö{
         position: absolute;
-        top: 340%;
+        top: 325%;
         left: 100px;
         height: 100px;
         width: auto;
@@ -488,7 +632,7 @@ h2{
 
     .spw{
         position: absolute;
-        top: 355%;
+        top: 340%;
         left: 100px;
         height: 100px;
         width: 230px;
@@ -497,16 +641,16 @@ h2{
 
     .sponsor{
         position: absolute;
-        top: 370%;
+        top: 355%;
         left: 97px;
-        height: 101px;
+        height: 120px;
         width: auto;
         border-radius: 10px;
     }
 
     .grip{
         position: absolute;
-        top: 385% ;
+        top: 373%;
         left: 96px ;
         height: 145px;
         width: 230px;
@@ -516,14 +660,91 @@ h2{
     
     .ny_sponsor{
         position: absolute;
-        top: 405%;
+        top: 393%;
         left: 130px;
         height: 101px;
         width: auto;
         border-radius: 10px;
     }
-    
-    
+    */
+
+
+    /*Fade image in*/
+    .images{
+        width: 230px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .image1{
+        width: 230px;
+        height: 255px;
+        border-radius: 10px;
+    }
+
+    .image2{
+        width: 230px;
+        height: 255px;
+        border-radius: 10px;
+    }
+
+    .image3{
+        background-color: white;
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+    }
+
+    .box{
+        overflow: hidden;
+        position: absolute;
+        top: 330%;
+        left: 100px;
+    }
+
+    .slider{
+        width: 230px;
+        display: flex;
+        animation: slide 16s infinite;
+    }
+
+    @keyframes slide{
+        0%{
+            transform: translateX(0);
+        }
+        25%{
+            transform: translateX(0);
+        }
+        /*_____________Första bilden ^___________________*/
+        30%{
+            transform: translateX(-100%);
+        }
+        50%{
+            transform: translateX(-100%);
+        }
+        /*______________Andra bilden^________________________________*/
+        55%{
+            transform: translateX(-200%);
+        }
+        75%{
+            transform: translateX(-200%);
+        }
+        /*_______________Tredje bilden^__________________________________________*/
+        80%{
+            transform: translateX(-300%);
+        }
+        90%{
+            transform: translateX(-300%);
+        }
+        /*_______________Fjärde bilden^_______________________________________________________*/
+        95%{
+            transform: translateX(-400%);
+        }
+        100%{
+            transform: translateX(-400%);
+        }
+        /*_______________Femte bilden^______________________________________________________________________*/
+    }
 
     .header .nav-menu{
         position: fixed;
@@ -538,6 +759,7 @@ h2{
         padding: 15px 0;
         transition: all 0.5s ease;
     }
+
     .header .nav-menu.open{
         visibility: visible;
         right: 0px;
@@ -560,8 +782,6 @@ h2{
     }
     .header .menu > .menu-item:first-child > a{
         border-top: 1px solid #333333;
-
-
     }
 
     .header .menu > .menu-item > a .plus:before,
@@ -599,12 +819,13 @@ h2{
         display: flex;
     }
 
-    h2{
+    /*h2{
         color: white;
         position: absolute;
         top: 35%;
-        left: 35%;
+        left: 30%;
     }
+    */
 
 }
 
@@ -631,7 +852,7 @@ h2{
     width: 200px;    
 }
 
-.card-img{
+/*.card-img{
     position: absolute;
     top: 230%;
     left: 50%;
@@ -639,7 +860,9 @@ h2{
     height: 350px;
     border-radius: 15px;
 }
+*/
 
+/*
 .bildtext{
     position: absolute;
     top: 280%;
@@ -650,9 +873,10 @@ h2{
     border-radius: 5px;
     width: 525px;
 }
+*/
 
 
-
+/*
 .text1{
     position: absolute;
     top: 25%;
@@ -758,6 +982,8 @@ h2{
     color: #2f53a7;
 }
 
+*/
+
 /*
 .vrångö{
     position: absolute;
@@ -804,4 +1030,3 @@ h2{
     width: 350px;
     border-radius: 10px;
 }
->>>>>>> Stashed changes
