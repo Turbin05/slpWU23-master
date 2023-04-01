@@ -1,13 +1,13 @@
-* {
-    margin: 0px;
-    padding: 0px;
+* { margin: 0px;
+  padding: 0px;
 }
 
 body{
     line-height: 1.5;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
-    background: linear-gradient(450deg, #004765, #BCD3F2);
+    background-image: url(/img/Bild\ på\ matta.jpg);
+    background-size: cover;
 }
 
 body .hidden-scrolling{
@@ -156,239 +156,802 @@ li{
 @media(min-width:992px){
     
     body{
-        margin: 0;
-        padding: 0;
+      margin: 0;
+      padding: 0;
+    }
+
+    h5{
+      position: absolute;
+      top: -10%;
+      left: 45%;
+    }
+
+    .historik{
+      background-color: white;
+      position: fixed;
+      top: 20%;
+      left: 18.5%;
+      height: 400vh;
+      width: 61vw;
+      margin: 20px;
+      border-radius: 10px;
+    }
+
+    .historik p{
+      margin: 10px;
+      font-weight: bold;
+      font-family: 'Times New Roman';
+    }
+
+    .kontakta_oss{
+      position: absolute;
+      top: 340%;
+      left: 0%;
+      text-align: start;
+      font-size: larger;
+      margin: 20px;
+      padding: 30px;
+      height: 150px;
+      width: 1850px;
+      border-radius: 10px;
+      background-color: grey;
+    }
+
+    .kontakta_oss p{
+      color: black;
+    }
+
+    .namnet-till-brottarskolan{
+      display: flex;
+      justify-content: center;
+    }
+
+    .brottarskolan{
+      position: absolute;
+      top: 40%;
+      left: 40%;
+      background-color: white;
+      width: 400px;
+      height: 300px;
+      border-radius: 10px;
+      font-size: 40px;
+      font-weight: bolder;
+      margin: 20px;
     }
     
+    .dagar-för-brottarskolan{
+      margin: 5px;
+      position: absolute;
+      top: 13%;
+      left: 20%;
+    }
+
+    .tider-för-brottarskolan{
+      position: absolute;
+      top: 15%;
+      left: 60%;
+    }
+
+    .notering{
+      position: absolute;
+      top: 100%;
+      left: 35%;
+      width: 500px;
+      padding: 10px;
+      background-color: white;
+      border-radius: 10px;
+      font-size: 20px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    h2{
+      color: white;
+      position: absolute;
+      font-size: 50px;
+      top: 33%;
+      left: 40%;
+    }    
 
     .card-img{
-        position: absolute;
-        top: 164%;
-        left: 50%;
-        transform: translate(-50%, 50%);
-        height: 350px;
-        border-radius: 15px;
+      position: absolute;
+      top: 225%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      height: 800px;
+      border-radius: 15px;
     }
 
     .bildtext{
-        position: absolute;
-        top: 214.5%;
-        left: 50%;
-        transform: translate(-50%, 50%);
-        background-color: white;
-        padding: 10px;
-        border-radius: 15px;
-        width: 525px;
+      position: absolute;
+      top: 352%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      background-color: white;
+      padding: 10px;
+      border-radius: 15px;
+      width: auto;
+      height: auto;
     }
 
     .text1{
-        position: absolute;
-        top: 25%;
-        left: 50%;
-        transform: translate(-50%, 50%);
-        background-color: white;
-        border-radius: 5px;
-        width: 200px;
-        
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      background-color: white;
+      border-radius: 5px;
+      width: 200px;
     }
     
     .card-img1{
-        position: absolute;
-        top: 20%;
-        left: 50%;
-        transform: translate(-50%, 50%);
-        height: 350px;
-        border-radius: 15px;
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      height: 350px;
+      border-radius: 15px;
     }
     
     .bildtext1{
-        position: absolute;
-        top: 70%;
-        left: 50%;
-        transform: translate(-50%, 50%);
-        background-color: white;
-        padding: 5px;
-        border-radius: 5px;
-        width: 525px;
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      background-color: white;
+      padding: 5px;
+      border-radius: 5px;
+      width: 525px;
     }
     
     
     .text2{
-        position: absolute;
-        top: 25%;
-        left: 50%;
-        transform: translate(-50%, 50%);
-        background-color: white;
-        border-radius: 5px;
-        width: 200px;
-        
-        
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      background-color: white;
+      border-radius: 5px;
+      width: 200px; 
     }
     
     .card-img2{
-        position: absolute;
-        top: 5%;
-        left: 50%;
-        transform: translate(-50%, 50%);
-        height: 800px;
-        border-radius: 15px;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      height: 800px;
+      border-radius: 15px;
     }
     
     .bildtext2{
-        position: absolute;
-        top: 71%;
-        left: 50%;
-        transform: translate(-50%, 50%);
-        background-color: white;
-        padding: 5px;
-        border-radius: 15px;
-        width: 525px;
+      position: absolute;
+      top: 128%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      background-color: white;
+      padding: 5px;
+      border-radius: 15px;
+      height: auto;
+      width: auto;
     }
     
     
     .text3{
-        position: absolute;
-        top: 25%;
-        left: 50%;
-        transform: translate(-50%, 50%);
-        background-color: white;
-        border-radius: 5px;
-        width: 200px;
-        
-        
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      background-color: white;
+      border-radius: 5px;
+      width: 200px;
     }
     
     .card-img3{
-        position: absolute;
-        top: 92%;
-        left: 50%;
-        transform: translate(-50%, 50%);
-        height: 350px;
-        border-radius: 15px;
+      position: absolute;
+      top: 120%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      height: 800px;
+      border-radius: 15px;
     }
     
     .bildtext3{
-        position: absolute;
-        top: 143%;
-        left: 50%;
-        transform: translate(-50%, 50%);
-        background-color: white;
-        padding: 5px;
-        border-radius: 15px;
-        width: 525px;
+      position: absolute;
+      top: 248%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      background-color: white;
+      padding: 5px;
+      border-radius: 15px;
+      width: auto;
+      height: auto;
     }
-    
     
     .läs-mer{
-        background-color: transparent;
-        text-decoration: none;
-        color: #2f53a7;
+      background-color: transparent;
+      text-decoration: none;
+      color: #2f53a7;
     }
 
-
-
     .vrångö{
+      position: absolute;
+      top: 51%;
+      right: 2%;
+      height: 150px;
+      width: auto;
+      border-radius: 10px;
+      }
+    
+    .spw{
+      position: absolute;
+      top: 70%;
+      right: 1.9%;
+      height: 200px;
+      width: 350px;
+      border-radius: 10px;
+      }
+    
+    .grip{
+      position: absolute;
+      top: 95%;
+      right: 1.9%;
+      height: 200px;
+      width: 350px;
+      border-radius: 10px;
+      }
+    
+    .sponsor{
+      position: absolute;
+      top: 120%;
+      right: 1.9%;
+      height: 200px;
+      width: 350px;
+      border-radius: 10px;
+      }
+
+    .ny_sponsor{
+      position: absolute;
+      top: 145%;
+      right: 2%;
+      height: 200px;
+      width: 350px;
+      border-radius: 10px;
+      background-color: white;
+      }
+
+    .våra-sponsorer_1{
+      color: whitesmoke;
+      position: absolute;
+      top: 45%;
+      left: 82%;
+      font-size: 30px;
+      font-weight: bold;
+      }
+
+    .våra-sponsorer{
+      color: whitesmoke;
+      position: absolute;
+      top: 48%;
+      left: 85%;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .våra-sponsorer_2{
+      position: absolute;
+      top: 40%;
+      left: 83%;
+      color: white;
+      font-weight: bolder;
+      font-size: 25px;
+    }
+
+    .idag{
+      padding: 20px;
+    }
+
+    .slider{
+      display: none;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    .tävlingsgruppens{
+      background-color: green;
+    }
+    
+    .mellangruppens{
+      background-color: green;
+    }
+
+    .brottarskolans{
+      background-color: green;
+    }
+
+      
+    th, td {
+      border: 1px solid #ddd;
+      text-align: center;
+      padding: 8px;
+    }
+        
+    
+    .schemat{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80vh;
+      padding: 20px;
+      width: 50vw;
+      position: relative;
+      left: 25%;
+    }
+    
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+      
+      th, td {
+        border: 1px solid #ddd;
+        text-align: center;
+        padding: 8px;
+      }
+      
+      th{
+        background-color: white;
+      }
+    
+      td{
+        color: white;
+        font-size: larger;
+        font-weight: bold;
+      }
+
+      .body-for-contact-card{
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .contact-info{
+        display: flex;
+        width: 100%;
+        max-width: 1200px;
+        align-items: center;
+        justify-content: center;
+        padding: 0 20px;
+      }
+
+      .kort{
+        background-color: #333333;
+        padding: 0 20px;
+        margin: 0 20px;
+        width: calc(33% - 20px);
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: purple;
+      }
+
+      .card-icon{
+        font-size: 28px;
+        background: orange;
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        line-height: 60px !important;
+        border-radius: 50%;
+        transition:  0.3s linear;
+      }
+
+      .kort:hover .card-icon{
+        background: none;
+        color: greenyellow;
+        transform: scale(1.6);
+      }
+
+      .kort p{
+        margin-top: 20px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        max-height: 0;
+        opacity: 0;
+        transition: 0.3s linear;
+        color: white;
+      }
+
+      .kort:hover p{
+        max-height: 40px;
+        opacity: 1;
+      }
+
+      .iconen-sbf{
+        width: 50vw;
+        position: absolute;
+        top: 40%;
+        left: 26%;
+        border-radius: 50px;
+      }
+
+      .info{
+        position: absolute;
+        top: 100%;
+        left: 28.5%;
+        font-size: 40px;
+        font-family: 'Times New Roman';
+        color: white;
+      }
+
+      .idag{
+        margin: 20px;
+        padding: 12px;
+      }
+
+      /*Frank Andersson på desktop*/
+      .bild-på-frank{
+        width: 300px;
+        height: 300px;
+        padding: 10px;
+        border-radius: 20px;
+      }
+
+      .frank-namn{
+        font-size: 20px;
+        position: absolute;
+        left: 5%;
+        justify-content: center;
+      }
+      .meritlista-frank{
+        position: absolute;
+        left: 25%;
+        top: 8.2%;
+        font-size: 28px;
+      }
+
+      .bronsmedalj-frank{
+        width: 40px;
+        position: absolute;
+        left: 26%;
+        top: 10.5%;
+      }
+
+      .guldmedalj-frank1{
+        width: 40px;
+        position: absolute;
+        top: 13%;
+        left: 26%;
+      }
+
+      .guldmedalj-frank2{
+        width: 40px;
+        position: absolute;
+        top: 13%;
+        left: 30%;
+      }
+
+      .guldmedalj-frank3{
+        width: 40px;
+        position: absolute;
+        top: 13%;
+        left: 34%;
+      }
+
+      .guldmedalj-frank4{
+        width: 40px;
+        position: absolute;
+        top: 15.25%;
+        left: 26%;
+      }
+
+      .guldmedalj-frank5{
+        width: 40px;
+        position: absolute;
+        top: 15.25%;
+        left: 30%;
+      }
+
+      .guldmedalj-frank6{
+        width: 40px;
+        position: absolute;
+        top: 15.25%;
+        left: 34%;
+      }
+
+      .guldmedalj-frank7{
+        width: 40px;
+        position: absolute;
+        top: 15.25%;
+        left: 38%;
+      }
+
+      .silvermedalj-frank1{
+        width: 40px;
+        position: absolute;
+        top: 13%;
+        left: 38%;
+      }
+
+      .silvermedalj-frank2{
+        width: 40px;
+        position: absolute;
+        top: 13%;
+        left: 42%;
+      }
+
+      .silvermedalj-frank3{
+        width: 40px;
+        position: absolute;
+        top: 15.25%;
+        left: 42%;
+      }
+
+      .silvermedalj-frank4{
+        width: 40px;
+        position: absolute;
+        top: 15.25%;
+        left: 46%;
+      }
+
+      .silvermedalj-frank5{
+        width: 40px;
+        position: absolute;
+        top: 15.25%;
+        left: 50%;
+      }
+
+      .frank-os{
+        position: absolute;
+        left: 25%;
+        top: 9.5%;
+      }
+
+      .frank-vm{
+        position: absolute;
+        left: 25%;
+        top: 12%;
+      }
+
+      .frank-em{
+        position: absolute;
+        left: 25%;
+        top: 14.25%;
+      }
+      /*=======================================*/
+      /*Larry Grip*/
+
+      .body-for-person1{
+        background-color: white;
+        width: 12vw;
+        height: 300px;
+        position: absolute;
+        text-align: start;
+        font-weight: bold;
+        padding: 10px;
+        top: 50%;
+        left: 30%;
+        margin: 10px;
+        border-radius: 10px;
+      }
+
+      .larry{
+        width: 200px;
+        height: 230px;
+      }
+
+      .egenskaper1{
+        color: #777;
+        font-family:'Times New Roman', Times, serif;
+      }
+
+      /*========================================*/
+      /*Namiq Binnatov*/
+      .body-for-person4{
+        background-color: white;
+        width: 12vw;
+        height: 300px;
+        position: absolute;
+        text-align: start;
+        font-weight: bold;
+        padding: 10px;
+        top: 50%;
+        left: 56%;
+        margin: 10px;
+        border-radius: 10px;
+      }
+
+      .namiq{
+        height: 240px;
+        width: 230px;
+        position: absolute;
+        right: 0.5%;
+      }
+
+      .egenskaper4{
+        color: #777;
+      }
+
+      /*===================================*/
+      /*Dillo Abdi*/
+      .body-for-person3{
+        background-color: white;
+        width: 12vw;
+        height: 300px;
+        position: absolute;
+        text-align: start;
+        font-weight: bold;
+        padding: 10px;
+        top: 50%;
+        left: 56%;
+        margin: 10px;
+        border-radius: 10px;
+      }
+
+      .dillo{
+        height: 240px;
+        width: 220px;
+        position: absolute;
+        left: 2.5%;
+      }
+
+      .egenskaper3{
+        color: #777;
+      }
+      /*=========================================*/
+
+      /*Patrik Lilja*/
+      .body-for-person2{
+        background-color: white;
+        width: 12vw;
+        height: 300px;
+        position: absolute;
+        text-align: start;
+        font-weight: bold;
+        padding: 10px;
+        top: 50%;
+        left: 30%;
+        margin: 10px;
+        border-radius: 10px;
+      }
+
+      .patrik{
+        height: 240px;
+        width: 230px;
+        position: absolute;
+        right: 0.5%;
+      }
+
+      .egenskaper2{
+        color: #777;
+      }
+
+      /*==========================================*/
+      /*Sponsorerna till om föreningen*/
+      .vrångö_3{
         position: absolute;
         top: 51%;
-        right: 2%;
+        right: 0.25%;
         height: 150px;
         width: auto;
         border-radius: 10px;
-       
-    }
-    
-    .spw{
+        }
+      
+      .spw_3{
         position: absolute;
         top: 70%;
-        right: 1.9%;
+        right:0.25%;
         height: 200px;
         width: 350px;
         border-radius: 10px;
-    }
-    
-    .grip{
+        }
+      
+      .grip_3{
         position: absolute;
         top: 95%;
-        right: 1.9%;
+        right:0.25%;
         height: 200px;
         width: 350px;
         border-radius: 10px;
-    }
-    
-    .sponsor{
+        }
+      
+      .sponsor_3{
         position: absolute;
         top: 120%;
-        right: 1.9%;
+        right: 0.25%;
         height: 200px;
         width: 350px;
         border-radius: 10px;
-    }
-
-    .ny_sponsor{
+        }
+  
+      .ny_sponsor_3{
         position: absolute;
         top: 145%;
-        right: 0.5%;
+        right: 0.25%;
         height: 200px;
         width: 350px;
         border-radius: 10px;
-    }
-
-    .våra-sponsorer{
+        background-color: white;
+        }
+  
+      .våra-sponsorer_3{
+        color: whitesmoke;
+        position: absolute;
+        top: 45%;
+        left: 82%;
+        font-size: 30px;
+        font-weight: bold;
+        }
+  
+      .våra-sponsorer_3{
         color: whitesmoke;
         position: absolute;
         top: 48%;
         left: 85%;
-        font-size: larger;
+        font-size: 30px;
         font-weight: bold;
-    }
+      }
+  
+      .våra-sponsorer_3{
+        position: absolute;
+        top: 40%;
+        left: 83%;
+        color: white;
+        font-weight: bolder;
+        font-size: 25px;
+      }
 
-    .slider{
+      /*=======================================*/
+
+
+
+
+
+
+
+      /*.body-for-contact-card{
+        background-image: url(/img/Bild\ på\ matta.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      */
+      .header .menu > .menu-item-has-children:hover > .sub-menu{
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+      }
+      .header .menu > .menu-item-has-children:hover > a .plus::after{
+        transform: translate(-50%, -50%)rotate(0deg);
+      }}
+      .header .menu > .menu-item > .sub-menu > .menu-item{
+        display: block;
+      }
+      .header .menu > .menu-item > .sub-menu > .menu-item > a{
+        display: block;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        color: black;
+        transition: all 0.3s ease;
+        text-transform: capitalize;
+      }
+      .header .open-nav-menu{
+        height: 34px;
+        width: 40px;
+        margin-right: 15px;
         display: none;
-    }
-    
-    .header .menu > .menu-item-has-children:hover > .sub-menu{
-    transform: translateY(0);
-    opacity: 1;
-    visibility: visible;
-}
-
-.header .menu > .menu-item-has-children:hover > a .plus::after{
-    transform: translate(-50%, -50%)rotate(0deg);
-}
-
-h2{
-    color: white;
-    position: absolute;
-    font-size: 30px;
-    top: 33%;
-    left: 43%;
-}
-
-
-}
-
-.header .menu > .menu-item > .sub-menu > .menu-item{
-    display: block;
-}
-
-.header .menu > .menu-item > .sub-menu > .menu-item > a{
-    display: block;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: 600;
-    color: black;
-    transition: all 0.3s ease;
-    text-transform: capitalize;   
-}
-
-.header .open-nav-menu{
-    height: 34px;
-    width: 40px;
-    margin-right: 15px;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
 
 }
 
@@ -456,21 +1019,61 @@ h2{
     width: 100%;
     display: block;
     min-height: 100vh;
-    /*background-image: url(/img/1-GAK-mattan-från-cafeet.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
 }
 
 
 
-/*responsive for mobile*/
+/*Responsive for mobile*/
 
 @media(max-width: 991px){
 
     body{
         margin: 0px;
         padding: 0px;
+        background-image: url(/img/Bild\ på\ matta.jpg);
+        background-position: center;
+    }
+
+    
+    .namnet-till-brottarskolan{
+        display: flex;
+        justify-content: center;
+    }
+
+    .brottarskolan{
+        position: absolute;
+        top: 50%;
+        left: 23%;
+        background-color: white;
+        width: 250px;
+        height: auto;
+        border-radius: 10px;
+        font-size: large;
+        font-weight: bolder;
+    }
+    
+    .dagar-för-brottarskolan{
+        margin: 5px;
+    }
+
+    .tider-för-brottarskolan{
+        position: absolute;
+        top: 25%;
+        left: 80%;
+    }
+
+    .notering{
+        position: absolute;
+        top: 150%;
+        left: 4%;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: white;
+        border-radius: 10px;
+        height: auto;
+        width: 400px;
+        font-weight: bold;
+        text-decoration: none;
     }
 
     .loggan{
@@ -549,22 +1152,24 @@ h2{
     
     .card-img2{
         position: absolute;
-        top: 25%;
+        top: 10%;
         left: 50%;
         transform: translate(-50%, 50%);
-        height: 300px;
+        height: 350px;
+        width: auto;
+        padding: 5px;
         border-radius: 15px;
     }
     
     .bildtext2{
         position: absolute;
-        top: 65%;
+        top: 62%;
         left: 50%;
         transform: translate(-50%, 50%);
         background-color: white;
-        padding: 5px;
+        padding: 15px;
         border-radius: 15px;
-        width: 350px;
+        width: 420px;
     }
     
     
@@ -576,16 +1181,15 @@ h2{
         background-color: white;
         border-radius: 5px;
         width: 200px;
-        
-        
-    }
+      }
     
     .card-img3{
         position: absolute;
-        top: 115%;
+        top: 100%;
         left: 50%;
         transform: translate(-50%, 50%);
-        height: 300px;
+        height: 350px;
+        width: auto;
         border-radius: 15px;
     }
     
@@ -597,7 +1201,7 @@ h2{
         background-color: white;
         padding: 5px;
         border-radius: 15px;
-        width: 350px;
+        width: 420px;
     }
     
     
@@ -607,67 +1211,97 @@ h2{
         color: #2f53a7;
     }
 
-    .våra-sponsorer{
-        position: absolute;
-        top: 320%;
-        right: 28%;
-        color: whitesmoke;
-        font-size: 20px;
+    .Rubriken-till-historiken{
+        font-size: large;
         font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+
+    .historik{
+        position: absolute;
+        top: 22%;
+        padding: 15px;
+        margin: 12px;
+        background-color: white;
+        border-radius: 10px;
+        text-align: start;
+      }
+
+      .idag{
+        margin: 1px;
+        padding: 10px;
+        text-align: start;
+      }
+
+      h3{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+
+    .kontakta_oss{
+        position: absolute;
+        top: 280%;
+        padding: 10px;
+        background-color: white;
+        border-radius: 10px;
     }
+
+    .våra-sponsorer_1{
+      color: whitesmoke;
+      position: absolute;
+      top: 320%;
+      left: 30%;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
 
     .bilder{
         display: none;
     }
 
-    /*
-    .vrångö{
-        position: absolute;
-        top: 325%;
-        left: 100px;
-        height: 100px;
-        width: auto;
-        border-radius: 10px;
-    }
-
-    .spw{
-        position: absolute;
-        top: 340%;
-        left: 100px;
-        height: 100px;
-        width: 230px;
-        border-radius: 10px;
-    }
-
-    .sponsor{
-        position: absolute;
-        top: 355%;
-        left: 97px;
-        height: 120px;
-        width: auto;
-        border-radius: 10px;
-    }
-
-    .grip{
-        position: absolute;
-        top: 373%;
-        left: 96px ;
-        height: 145px;
-        width: 230px;
-        border-radius: 10px;
-        padding-bottom: 5px;
+    table {
+        border-collapse: collapse;
     }
     
-    .ny_sponsor{
-        position: absolute;
-        top: 393%;
-        left: 130px;
-        height: 101px;
-        width: auto;
-        border-radius: 10px;
+    th, td{
+        border: 1px solid #ddd;
+        text-align: center;
+        padding: 4px;
     }
-    */
+        
+    
+    .schemat{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 75vh;
+        width: 40vw;
+        padding: 3px;
+        width: 100%;
+      }
 
+      .tävlingsgruppens{
+        background-color: green;
+      }
+      
+      .mellangruppens{
+        background-color: green;
+      }
+  
+      .brottarskolans{
+        background-color: green;
+      }
+      
+    th{
+        background-color: white;
+    }
+    
+    td{
+        color: white;
+        font-size: larger;
+        font-weight: bold;
+    }
+      
 
     /*Fade image in*/
     .images{
@@ -708,6 +1342,8 @@ h2{
         animation: slide 16s infinite;
     }
 
+    
+
     @keyframes slide{
         0%{
             transform: translateX(0);
@@ -746,6 +1382,246 @@ h2{
         /*_______________Femte bilden^______________________________________________________________________*/
     }
 
+    .våra-sponsorer_2{
+      position: absolute;
+      top: 320%;
+      left: 33.5%;
+      color: white;
+      font-weight: bolder;
+    }
+
+    .våra-sponsorer_4{
+      position: absolute;
+      top: 320%;
+      left: 30%;
+      color: white;
+      font-weight: bolder;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .iconen-sbf{
+      width: 250px;
+      position: absolute;
+      top: 50%;
+      left: 20%;
+      border-radius: 50px;
+    }
+
+    .info{
+      position: absolute;
+      top: 75%;
+      left: 4%;
+      text-align:center;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      color: white;
+    }
+
+
+    .body-for-contact-card{
+      background-image: url(/img/Bild\ på\ matta.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .contact-info{
+      display: flex;
+      width: 100%;
+      max-width: 1200px;
+      align-items: center;
+      justify-content: center;
+      padding: 0 20px;
+    }
+
+    .kort{
+      background-color: #333333;
+      padding: 0 20px;
+      margin: 0 20px;
+      width: calc(33% - 20px);
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: purple;
+    }
+
+    .card-icon{
+      font-size: 28px;
+      background: orange;
+      width: 60px;
+      height: 60px;
+      text-align: center;
+      line-height: 60px !important;
+      border-radius: 50%;
+    }
+
+    .kort:hover .card-icon{
+      background: none;
+      color: greenyellow;
+      transform: scale(1.6);
+    }
+
+    .kort p{
+      margin-top: 10px;
+      font-weight: 300;
+      letter-spacing: 1px;
+      max-height: 0;
+      color: white;
+    }
+
+    .mail{
+      display: flex;
+      text-align: center;
+    }
+
+    .kort:hover p{
+      max-height: 40px;
+      opacity: 1;
+      color: white;
+    }
+
+    /*Frank Andersson på mobile*/
+    .bild-på-frank{
+      width: 100px;
+      height: 100px;
+      padding: 10px;
+      border-radius: 20px;
+    }
+
+    .frank-namn{
+      font-size: 10px;
+      position: absolute;
+      left: 7%;
+      font-weight: bold;
+    }
+    .meritlista-frank{
+      position: absolute;
+      left: 28%;
+      top: 85.5%;
+      font-weight: bold;
+      font-size: 10px;
+    }
+
+    .bronsmedalj-frank{
+      width: 20px;
+      position: absolute;
+      left: 27.5%;
+      top: 89.5%;
+    }
+
+    .guldmedalj-frank1{
+      width: 20px;
+      position: absolute;
+      top: 93.5%;
+      left: 27.5%;
+    }
+
+    .guldmedalj-frank2{
+      width: 20px;
+      position: absolute;
+      top: 93.5%;
+      left: 32.5%;
+    }
+
+    .guldmedalj-frank3{
+      width: 20px;
+      position: absolute;
+      top: 93.5%;
+      left: 37.5%;
+    }
+
+    .guldmedalj-frank4{
+      width: 20px;
+      position: absolute;
+      top: 97.5%;
+      left: 27.5%;
+    }
+
+    .guldmedalj-frank5{
+      width: 20px;
+      position: absolute;
+      top: 97.5%;
+      left: 32.5%;
+    }
+
+    .guldmedalj-frank6{
+      width: 20px;
+      position: absolute;
+      top: 97.5%;
+      left: 37.5%;
+    }
+
+    .guldmedalj-frank7{
+      width: 20px;
+      position: absolute;
+      top: 97.5%;
+      left: 42.5%;
+    }
+
+    .silvermedalj-frank1{
+      width: 20px;
+      position: absolute;
+      top: 93.5%;
+      left: 42.5%;
+    }
+
+    .silvermedalj-frank2{
+      width: 20px;
+      position: absolute;
+      top: 93.5%;
+      left: 47.5%;
+    }
+
+    .silvermedalj-frank3{
+      width: 20px;
+      position: absolute;
+      top: 97.5%;
+      left: 47.5%;
+    }
+
+    .silvermedalj-frank4{
+      width: 20px;
+      position: absolute;
+      top: 97.5%;
+      left: 52.5%;
+    }
+
+    .silvermedalj-frank5{
+      width: 20px;
+      position: absolute;
+      top: 97.5%;
+      left: 57.5%;
+    }
+
+    .frank-os{
+      position: absolute;
+      left: 27.5%;
+      top: 87.5%;
+      font-size: 10px;
+      font-weight: bold;
+    }
+
+    .frank-vm{
+      position: absolute;
+      left: 28%;
+      top: 92%;
+      font-size: 10px;
+      font-weight: bold;
+    }
+
+    .frank-em{
+      position: absolute;
+      left: 28%;
+      top: 96%;
+      font-size: 10px;
+      font-weight: bold;
+    }
+
     .header .nav-menu{
         position: fixed;
         right: -280px;
@@ -759,6 +1635,111 @@ h2{
         padding: 15px 0;
         transition: all 0.5s ease;
     }
+    /*=================================================*/
+    /*Cardsidorna*/
+    /*Larry Grips*/
+    .body-for-person1{
+      background-color: white;
+      width: 120;
+      height: 300px;
+      position: absolute;
+      text-align: start;
+      font-weight: bold;
+      padding: 10px;
+      top: 60%;
+      left: 5%;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    .larry{
+      width: 200px;
+      height: 230px;
+    }
+
+    .egenskaper1{
+      color: #777;
+      font-family:'Times New Roman', Times, serif;
+    }
+    /*=================================================*/
+    /*Namiq Binnatovs*/
+    .body-for-person4{
+      background-color: white;
+      width: 220px;
+      height: 300px;
+      position: absolute;
+      text-align: start;
+      font-weight: bold;
+      padding: 10px;
+      top: 60%;
+      left: 65%;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    .namiq{
+      height: 200px;
+      width: 200px;
+      position: absolute;
+      right: 5%;
+    }
+
+    .egenskaper4{
+      color: #777;
+    }
+    /*==================================================*/
+     /*Patrik Liljas*/
+     .body-for-person2{
+      background-color: white;
+      width: 200px;
+      height: 300px;
+      position: absolute;
+      text-align: start;
+      font-weight: bold;
+      padding: 10px;
+      top: 96%;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    .patrik{
+      height: 230px;
+      width: 200px;
+      position: absolute;
+      right: 0.25%;
+    }
+
+    .egenskaper2{
+      color: #777;
+    }
+    /*===================================================*/
+    /*Dillo Abdis*/
+
+    .body-for-person3{
+      background-color: white;
+      width: 210px;
+      height: 300px;
+      position: absolute;
+      text-align: start;
+      font-weight: bold;
+      padding: 10px;
+      top: 96%;
+      left: 53%;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    .dillo{
+      height: 240px;
+      width: 200px;
+      position: absolute;
+      left: 2%;
+    }
+
+    .egenskaper3{
+      color: #777;
+    }
+    /*====================================================*/
 
     .header .nav-menu.open{
         visibility: visible;
@@ -818,28 +1799,10 @@ h2{
     .header .open-nav-menu{
         display: flex;
     }
-
-    /*h2{
-        color: white;
-        position: absolute;
-        top: 35%;
-        left: 30%;
-    }
-    */
-
 }
 
 /*Nu börjar koden om själva informationen */
-/*h2{
-    color: white;
-    position: absolute;
-    transform: translate(100%, -100%);
-    top: 35%;
-    left: 30%;
-    text-align: center;
-    font-size: 30px;
-}
-*/
+
 
 
 .text{
@@ -852,181 +1815,593 @@ h2{
     width: 200px;    
 }
 
-/*.card-img{
-    position: absolute;
-    top: 230%;
+ /*Här börjar css-koden till Calendar*/
+
+ :root {
+  --primary-clr: #0039ff;
+}
+
+.body-for-calendar {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.container_2 {
+  position: absolute;
+  top: 40%;
+  right: auto;
+  width: 1150px;
+  min-height: 850px;
+  margin: 0 auto;
+  padding: 5px;
+  color: #fff;
+  display: flex;
+  border-radius: 10px;
+  background-color:#090979;
+}
+.left {
+  width: 60%;
+  padding: 20px;
+}
+.calendar {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #878895;
+  border-radius: 5px;
+  background-color: #fff;
+}
+/* set after behind the main element */
+.calendar::before,
+.calendar::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 12px;
+  height: 97%;
+  border-radius: 0 5px 5px 0;
+  background-color: #d3d4d6d7;
+  transform: translateY(-50%);
+}
+.calendar::before {
+  height: 94%;
+  left: calc(100% + 12px);
+  background-color: rgb(153, 153, 153);
+}
+.calendar .month {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.calendar .month .prev,
+.calendar .month .next {
+  cursor: pointer;
+}
+.calendar .month .prev:hover,
+.calendar .month .next:hover {
+  color: var(--primary-clr);
+}
+.calendar .weekdays {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.weekdays div {
+  width: 14.28%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calendar .days {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.calendar .days .day {
+  width: 14.28%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--primary-clr);
+  border: 1px solid #f5f5f5;
+}
+.calendar .days .day:nth-child(7n + 1) {
+  border-left: 2px solid #f5f5f5;
+}
+.calendar .days .day:nth-child(7n) {
+  border-right: 2px solid #f5f5f5;
+}
+.calendar .days .day:nth-child(-n + 7) {
+  border-top: 2px solid #f5f5f5;
+}
+.calendar .days .day:nth-child(n + 29) {
+  border-bottom: 2px solid #f5f5f5;
+}
+
+.calendar .days .day:not(.prev-date, .next-date):hover {
+  color: #fff;
+  background-color: var(--primary-clr);
+}
+.calendar .days .prev-date,
+.calendar .days .next-date {
+  color: #b3b3b3;
+}
+.calendar .days .active {
+  position: relative;
+  font-size: 2rem;
+  color: #fff;
+  background-color: var(--primary-clr);
+}
+.calendar .days .active::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 10px 2px var(--primary-clr);
+}
+.calendar .days .today {
+  font-size: 2rem;
+}
+.calendar .days .event {
+  position: relative;
+}
+.calendar .days .event::after {
+  content: "";
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  width: 75%;
+  height: 6px;
+  border-radius: 30px;
+  transform: translateX(-50%);
+  background-color: var(--primary-clr);
+}
+.calendar .days .day:hover.event::after {
+  background-color: #fff;
+}
+.calendar .days .active.event::after {
+  background-color: #fff;
+  bottom: 20%;
+}
+.calendar .days .active.event {
+  padding-bottom: 10px;
+}
+.calendar .goto-today {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  color: var(--primary-clr);
+}
+.calendar .goto-today .goto {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid var(--primary-clr);
+}
+.calendar .goto-today .goto input {
+  width: 100%;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0 20px;
+  color: var(--primary-clr);
+  border-radius: 5px;
+}
+.calendar .goto-today button {
+  padding: 5px 10px;
+  border: 1px solid var(--primary-clr);
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  color: var(--primary-clr);
+}
+.calendar .goto-today button:hover {
+  color: #fff;
+  background-color: var(--primary-clr);
+}
+.calendar .goto-today .goto button {
+  border: none;
+  border-left: 1px solid var(--primary-clr);
+  border-radius: 0;
+}
+.container_2 .right {
+  position: relative;
+  width: 40%;
+  min-height: 100%;
+  padding: 20px 0;
+}
+
+.right .today-date {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  padding-left: 70px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.right .today-date .event-day {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.right .today-date .event-date {
+  font-size: 1rem;
+  font-weight: 400;
+  color: whitesmoke;
+}
+.events {
+  width: 100%;
+  height: 100%;
+  max-height: 600px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding-left: 4px;
+}
+.events .event {
+  position: relative;
+  width: 95%;
+  min-height: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0 20px;
+  padding-left: 50px;
+  color: #fff;
+  background: linear-gradient(90deg, #3f4458, transparent);
+  cursor: pointer;
+}
+/* even event */
+.events .event:nth-child(even) {
+  background: transparent;
+}
+.events .event:hover {
+  background: linear-gradient(90deg, var(--primary-clr), transparent);
+}
+.events .event .title {
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+}
+.events .event .title .event-title {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 20px;
+}
+.events .event i {
+  color: var(--primary-clr);
+  font-size: 0.5rem;
+}
+.events .event:hover i {
+  color: #fff;
+}
+.events .event .event-time {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #878895;
+  margin-left: 15px;
+  pointer-events: none;
+}
+.events .event:hover .event-time {
+  color: #fff;
+}
+/* add tick in event after */
+.events .event::after {
+  content: "✓";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  font-size: 3rem;
+  line-height: 1;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.3;
+  color: var(--primary-clr);
+  transform: translateY(-50%);
+}
+.events .event:hover::after {
+  display: flex;
+}
+.add-event {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: #878895;
+  border: 2px solid #878895;
+  opacity: 0.5;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+}
+.add-event:hover {
+  opacity: 1;
+}
+.add-event i {
+  pointer-events: none;
+}
+.events .no-event {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #878895;
+}
+.add-event-wrapper {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  width: 90%;
+  max-height: 0;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: #fff;
+  transform: translateX(-50%);
+  transition: max-height 0.5s ease;
+}
+.add-event-wrapper.active {
+  max-height: 300px;
+}
+.add-event-header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: #373c4f;
+  border-bottom: 1px solid #f5f5f5;
+}
+.add-event-header .close {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.add-event-header .close:hover {
+  color: var(--primary-clr);
+}
+.add-event-header .title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.add-event-body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 20px;
+}
+.add-event-body .add-event-input {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.add-event-body .add-event-input input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #f5f5f5;
+  padding: 0 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: black;
+}
+.add-event-body .add-event-input input::placeholder {
+  color: black;
+}
+.add-event-body .add-event-input input:focus {
+  border-bottom: 1px solid var(--primary-clr);
+}
+.add-event-body .add-event-input input:focus::placeholder {
+  color: var(--primary-clr);
+}
+.add-event-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.add-event-footer .add-event-btn {
+  height: 40px;
+  font-size: 1rem;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  color: #fff;
+  background-color: var(--primary-clr);
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid var(--primary-clr);
+}
+.add-event-footer .add-event-btn:hover {
+  background-color: transparent;
+  color: var(--primary-clr);
+}
+
+/* Media querie for mobile*/
+
+@media screen and (max-width: 991px) {
+  .body-for-calendar {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .container_2 {
+    height: 100vh;
+    flex-direction: column;
+    border-radius: 0;
+    width: 100vw;
+  }
+  .container_2 .left {
+    width: 100vw;
+    height: 100%;
+    padding: 20px 0;
+  }
+  .container_2 .right {
+    width: 100vw;
+    height: 100%;
+    padding: 20px 0;
+  }
+  .calendar::before,
+  .calendar::after {
+    top: 100%;
     left: 50%;
-    transform: translate(-50%, 50%);
-    height: 350px;
-    border-radius: 15px;
-}
-*/
-
-/*
-.bildtext{
-    position: absolute;
-    top: 280%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    background-color: white;
-    padding: 5px;
-    border-radius: 5px;
-    width: 525px;
-}
-*/
-
-
-/*
-.text1{
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    background-color: white;
-    border-radius: 5px;
-    width: 200px;
-    
-    
+    width: 97%;
+    height: 12px;
+    border-radius: 0 0 5px 5px;
+    transform: translateX(-50%);
+  }
+  .calendar::before {
+    width: 94%;
+    top: calc(100% + 12px);
+  }
+  .events {
+    padding-bottom: 340px;
+  }
+  
+  .add-event-wrapper {
+    bottom: 100px;
+  }
 }
 
-.card-img1{
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    height: 350px;
-    border-radius: 15px;
+/*Media querie for Desktop*/
+@media screen and (max-width: 992px) {
+  .calendar .month {
+    height: 75px;
+  }
+  .calendar .weekdays {
+    height: 50px;
+  }
+  .calendar .days .day {
+    height: 40px;
+    font-size: 0.8rem;
+  }
+  .calendar .days .day.active,
+  .calendar .days .day.today {
+    font-size: 1rem;
+  }
+  .right .today-date {
+    padding: 20px;
+  }
 }
 
-.bildtext1{
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    background-color: white;
-    padding: 5px;
-    border-radius: 5px;
-    width: 525px;
+.vrångö_2{
+  position: absolute;
+  top: 35%;
+  right: 0.5%;
+  height: 150px;
+  width: auto;
+  border-radius: 10px;
 }
 
-
-.text2{
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    background-color: white;
-    border-radius: 5px;
-    width: 200px;
-    
-    
+.spw_2{
+  position: absolute;
+  top: 53%;
+  right: 0.350%;
+  height: 200px;
+  width: 350px;
+  border-radius: 10px;
 }
 
-.card-img2{
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    height: 350px;
-    border-radius: 15px;
+.grip_2{
+  position: absolute;
+  top: 76.5%;
+  right: 0.350%;
+  height: 200px;
+  width: 350px;
+  border-radius: 10px;
 }
 
-.bildtext2{
-    position: absolute;
-    top: 140%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    background-color: white;
-    padding: 5px;
-    border-radius: 5px;
-    width: 525px;
+.sponsor_2{
+  position: absolute;
+  top: 100%;
+  right: 0.350%;
+  height: 200px;
+  width: 350px;
+  border-radius: 10px;
 }
 
-
-.text3{
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    background-color: white;
-    border-radius: 5px;
-    width: 200px;
-    
-    
+.ny_sponsor_2{
+  position: absolute;
+  top: 123.5%;
+  left: 81.5%;
+  height: 200px;
+  width: 350px;
+  border-radius: 10px;
+  background-color: white;
 }
 
-.card-img3{
-    position: absolute;
-    top: 163%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    height: 350px;
-    border-radius: 15px;
+.våra-sponsorer{
+  color: whitesmoke;
+  position: absolute;
+  top: 40%;
+  left: 83%;
+  font-size: 25px;
+  font-weight: bold;
 }
 
-.bildtext3{
-    position: absolute;
-    top: 210%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    background-color: white;
-    padding: 5px;
-    border-radius: 5px;
-    width: 525px;
-}
-
-
-.läs-mer{
-    background-color: transparent;
-    text-decoration: none;
-    color: #2f53a7;
-}
-
-*/
-
-/*
-.vrångö{
-    position: absolute;
-    top: 51%;
-    right: 2%;
-    height: 150px;
-    width: auto;
-    border-radius: 10px;
-   
-}
-
-.spw{
-    position: absolute;
-    top: 70%;
-    right: 1.9%;
-    height: 200px;
-    width: 350px;
-    border-radius: 10px;
-}
-
-.grip{
-    position: absolute;
-    top: 95%;
-    right: 1.9%;
-    height: 200px;
-    width: 350px;
-    border-radius: 10px;
-}
-
-.sponsor{
-    position: absolute;
-    top: 120%;
-    right: 1.9%;
-    height: 200px;
-    width: 350px;
-    border-radius: 10px;
-}
-
-.sponsor2{
-    position: absolute;
-    top: 145%;
-    right: 1.9%;
-    height: 200px;
-    width: 350px;
-    border-radius: 10px;
+.våra-sponsorer_4{
+  position: absolute;
+  top: 40%;
+  left: 83%;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
 }

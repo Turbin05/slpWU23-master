@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <title>Göteborgs atletklubb</title>
+</head>
+<body>
+    <!--Header start-->
+     <header class="header">
+        <div class="container">
+            <div class="header-main">
+                <div class="logo">
+                   <center><a href="index.html"><img src="/img/gak logga.png" alt="Loggan till föreningen" class="loggan"></a></center> 
+                    <strong><p>Göteborgs atletklubb</p></strong>
+                </div>
+                <div class="open-nav-menu">
+                    <span></span>
+                </div>
+                <div class="menu-overlay">
+                </div>
+                <!--Navigation menu start-->
+                <nav class="nav-menu">
+                    <div class="close-nav-menu">
+                        <img class="kryss" src="/img/Red-x-button.png" alt="close">
+
+                    </div>
+                    <ul class="menu">
+                        <li class="menu-item">
+                            <a href="index.html">Hem</a>
+                        </li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="#" data-toggle ="sub-menu">Nyheter <i class="plus"></i></a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="våra_nyheter.html">Våra Nyheter</a></li>
+                                <li class="menu-item"><a href="SBF_nyheter.html">SBF Nyheter</a></li>
+                                <li class="menu-item"><a href="Stadslag_nyheter.html">Stadslag Nyheter</a></li>
+                            </ul>
+                        </li> <li class="menu-item">
+                            <a href="Kalender.html">Kalender</a>
+                        </li> <li class="menu-item menu-item-has-children">
+                            <a href="#" data-toggle ="sub-menu">Träningstider <i class="plus" href="#"></i></a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="brottarskolan.html">Brottarskolan</a></li>
+                                <li class="menu-item"><a href="mellangruppen.html">Mellangruppen</a></li>
+                                <li class="menu-item"><a href="Tävlingsgruppen.html">Tävlingsruppen</a></li>
+                            </ul>
+                        </li> <li class="menu-item">
+                            <a href="om_foreningen.html">Om föreningen</a>
+                        </li> <li class="menu-item">
+                            <a href="Kontakt.html">Kontakt</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!--Navigation menu end-->
+            </div>
+        </div>
+    </header>
+    <!--Header end-->
+
+    <!--Här är början av home-section-->
+    <section class="home-section">
+        <div class="body-for-calendar">
+            <div class="container_2">
+                <div class="left">
+                    <div class="calendar">
+                        <div class="month">
+                            <i class="fas fa-angle-left prev"></i>
+                            <div class="date">december 2015</div>
+                            <i class="fas fa-angle-right next"></i>
+                        </div>
+                        <div class="weekdays">
+                            <div>Söndag</div>
+                            <div>Måndag</div>
+                            <div>Tisdag</div>
+                            <div>Onsdag</div>
+                            <div>Torsdag</div>
+                            <div>Fredag</div>
+                            <div>Lördag</div>
+                        </div>
+                        <div class="days"></div>
+                        <div class="goto-today">
+                            <div class="goto">
+                                <input type="text" placeholder="mm/yyyy" class="date-input" />
+                                <button class="goto-btn">Go</button>
+                            </div>
+                            <button class="today-btn">Idag</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="today-date">
+                        <div class="event-day">Onsdag</div>
+                        <div class="event-date">12th december 2022</div>
+                    </div>
+                    <div class="events"></div>
+                    <div class="add-event-wrapper">
+                        <div class="add-event-header">
+                            <div class="title">Lägg till händelse</div>
+                            <i class="fas fa-times close"></i>
+                        </div>
+                        <div class="add-event-body">
+                            <div class="add-event-input">
+                                <input type="text" placeholder="Event Name" class="event-name" />
+                            </div>
+                            <div class="add-event-input">
+                                <input type="text"placeholder="Event Time From" class="event-time-from"/>
+                            </div>
+                            <div class="add-event-input">
+                                <input type="text" placeholder="Event Time To" class="event-time-to"/>
+                            </div>
+                        </div>
+                        <div class="add-event-footer">
+                            <button class="add-event-btn">Lägg till händelse</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="add-event">
+                    <i class="fas fa-plus"></i>
+                </button>
+            </div>
+        </div>
+
+        <p class="våra-sponsorer">VÅRA SPONSORER</p>
+        <!--Fade image start-->
+        <div class="box">
+            <div class="slider">
+                <a href="https://kajkantenvrango.se" target="_blank" rel="noopener noreferrer"><img class="image1" src="/img/Kajkanten Vrångö sponsor.jpg"></a>
+                <a href="https://spw-sport.com/" target="_blank" rel="noopener noreferrer"></a><img class="images" src="/img/SWE-SPW.webp">
+                <img class="images" src="/img/Powered by grip.jpg">
+                <a href="https://www.swedewrestling.se/" target="_blank" rel="noopener noreferrer"><img class="image2" src="/img/Sverige brottning.png"></a>
+                <a href="https://www.kvadratbygg.se/" target="_blank" rel="noopener noreferrer"><img class="image3" src="/img/Kvadrat.png"></a>
+            </div>
+        </div>
+        <!--Fade image end-->
+
+    <div class="bilder">
+        <a href="http://kajkantenvrango.se/" target="_blank" rel="noopener noreferrer"><img class="vrångö_2" src="/img/Kajkanten Vrångö sponsor.jpg" alt="Sponsor Vrångö"></a>
+        <a href="http://spw-sport.com/" target="_blank" rel="noopener noreferrer"><img class="spw_2" src="/img/SWE-SPW.webp" alt="Starprowrestling sponsor"></a>   
+        <img class="grip_2" src="/img/Powered by grip.jpg" alt="Vår sponsor grip">
+       <a href="http://Swedewrestling.se" target="_blank" rel="noopener noreferrer"><img class="sponsor_2" src="/img/Sverige brottning.png" alt="sponsor från förbundet"></a>
+        <a href="https://www.kvadratbygg.se/" target="_blank" rel="noopener noreferrer"><img class="ny_sponsor_2" src="/img/Kvadrat.png" alt="Den nya sponsorn"></a>  
+    </div>
+    </section>
+    <!--Här är slutet av home-section-->
+
+    <script src="/js/index.js"></script>
+    
+</body>
+</html>
